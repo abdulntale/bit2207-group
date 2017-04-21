@@ -1,0 +1,15 @@
+[0] Config.pm:343> INFO - This is Biber 2.5
+[0] Config.pm:346> INFO - Logfile is 'concept_paper.blg'
+[60] biber:290> INFO - === Fri Apr 21, 2017, 20:20:03
+[207] Biber.pm:352> INFO - Reading 'concept_paper.bcf'
+[432] Biber.pm:777> INFO - Found 1 citekeys in bib section 0
+[451] Biber.pm:3494> INFO - Processing section 0
+[479] Biber.pm:3658> INFO - Looking for bibtex format file 'references.bib' for section 0
+[484] bibtex.pm:1176> INFO - Decoding LaTeX character macros into UTF-8
+[489] bibtex.pm:1037> INFO - Found BibTeX data source 'references.bib'
+[515] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[515] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[515] Biber.pm:3307> INFO - Sorting list 'none/global/' of type 'entry' with scheme 'none' and locale 'en-US'
+[515] Biber.pm:3311> INFO - No sort tailoring available for locale 'en-US'
+[517] bbl.pm:526> INFO - Writing 'concept_paper.bbl' with encoding 'ascii'
+[532] bbl.pm:619> INFO - Output to concept_paper.bbl
