@@ -16,6 +16,9 @@
 \setcounter{tocdepth}{5}
 \setcounter{secnumdepth}{5}
 
+\usepackage[backend=biber,style=ieee,natbib=true]{biblatex}
+\addbibresource{references.bib}
+
 \begin{document}
 
 \begin{titlepage}
@@ -85,7 +88,7 @@ Williams \textsc{kakooza} & \textsc{15/U/20165/EVE} \\
 \end{tabular}
 \end{table}
 
-{\large \today}
+{\large April 21, 2017}
 
 \vfill
 
@@ -108,7 +111,7 @@ society. Decision making is
 Harold Hotelling makes an observation on the stability of a competitive situation, that
 competitors will tend to sell similar product at a similar price point, and in close proximity.
 His observation follows the single-peaked preference model that defines a general tendency
-of populations to make decisions with a median distribution of choice.\\
+of populations to make decisions with a median distribution of choice.\cite{bib:Hot29}\\
 
 Voting being a decision making process should therefore too follow a similar model. Supposing
 that voting does follow a predictable model, it should therefore be possible to predict
@@ -135,5 +138,6 @@ Using computers to allow a group of people to make better joint-decisions.
 \addcontentsline{toc}{section}{Methodology}
 \section*{References}
 \addcontentsline{toc}{section}{References}
+\printbibliography[heading=subbibintoc]
 
 \end{document}
